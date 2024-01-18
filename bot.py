@@ -1,5 +1,11 @@
 import streamlit as st
 from utils import write_message
+from llm import llm, embeddings
+
+# tag::secrets[]
+# Load paramters from environment variables
+openai_api_key = st.secrets['OPENAI_API_KEY']
+openai_model = st.secrets['OPENAI_MODEL']
 
 # tag::setup[]
 # Page Config
