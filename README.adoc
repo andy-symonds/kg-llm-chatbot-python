@@ -7,6 +7,12 @@ For a complete walkthrough of this repository, link:https://graphacademy.neo4j.c
 
 == Running the application
 
+Set up a virtual environment (I prefer using pyenv), from project root
+[source,sh]
+pyenv virtualenv 3.11.1 kg-llm
+pyenv kg-llm
+conda deactivate
+
 To run the application, you must install the libraries listed in `requirements.txt`.
 
 [source,sh]
